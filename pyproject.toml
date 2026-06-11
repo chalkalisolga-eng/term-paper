@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meteo-analyzer"
+version = "1.0.0"
+authors = [
+    { name = "Chalkalis Olha", email = "chalkalisolha@gmail.com" }
+]
+description = "Універсальний об'єктно-орієнтований аналізатор метеорологічних даних"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+meteo-analyzer = "main:main"
